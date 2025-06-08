@@ -1,5 +1,4 @@
 import React from "react";
-import { useClickSound } from "../hooks/useClickSound";
 
 interface CustomerButtonProps {
   className?: string;
@@ -14,8 +13,6 @@ export const CustomerButton: React.FC<CustomerButtonProps> = ({
   disabled = false,
   selected = false,
 }) => {
-  const playClickSound = useClickSound();
-
   let bgImage = "";
 
   if (disabled) {
@@ -30,8 +27,8 @@ export const CustomerButton: React.FC<CustomerButtonProps> = ({
   }
   const handleClick = () => {
     if (disabled) return;
-    playClickSound();
-    onClick?.(); // เรียกฟังก์ชันจริง ถ้ามี
+
+    onClick?.();
   };
   return (
     <div

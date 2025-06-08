@@ -1,5 +1,5 @@
 import React from "react";
-import { useClickSound } from "../hooks/useClickSound";
+
 interface BackButtonProps {
   onClick: () => void;
   className?: string;
@@ -9,9 +9,7 @@ export const BackButton: React.FC<BackButtonProps> = ({
   onClick,
   className = "",
 }) => {
-  const playClickSound = useClickSound();
   const handleClick = () => {
-    playClickSound();
     onClick();
   };
   return (

@@ -1,5 +1,4 @@
 import React from "react";
-import { useClickSound } from "../hooks/useClickSound";
 
 interface JoinButtonProps {
   onClick?: () => void;
@@ -14,11 +13,9 @@ export const JoinButton: React.FC<JoinButtonProps> = ({
   className = "",
   children = "Join",
 }) => {
-  const playClickSound = useClickSound();
-
   const handleClick = () => {
     if (disabled) return;
-    playClickSound();
+
     onClick?.();
   };
 

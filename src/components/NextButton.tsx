@@ -1,5 +1,4 @@
 import React from "react";
-import { useClickSound } from "../hooks/useClickSound";
 
 interface NextButtonProps {
   onClick: () => void;
@@ -14,11 +13,9 @@ export const NextButton: React.FC<NextButtonProps> = ({
   className = "",
   disabled = false,
 }) => {
-  const playClickSound = useClickSound();
-
   const handleClick = () => {
     if (disabled) return;
-    playClickSound();
+
     onClick();
   };
 

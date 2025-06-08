@@ -1,5 +1,4 @@
 import React from "react";
-import { useClickSound } from "../hooks/useClickSound";
 
 interface QueueButtonProps {
   className?: string;
@@ -16,11 +15,8 @@ export const QueueButton: React.FC<QueueButtonProps> = ({
   inCafe = false,
   selected = false,
 }) => {
-  const playClickSound = useClickSound();
-
   const handleClick = () => {
-    playClickSound();
-    onClick?.(); // เรียก onClick ถ้ามี
+    onClick?.();
   };
 
   const showBubble = inCafe || (queueIndex !== null && queueIndex >= 0);

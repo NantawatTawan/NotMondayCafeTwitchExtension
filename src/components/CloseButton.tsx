@@ -1,5 +1,5 @@
 import React from "react";
-import { useClickSound } from "../hooks/useClickSound";
+
 interface CloseButtonProps {
   onClick?: () => void;
   className?: string;
@@ -9,9 +9,7 @@ export const CloseButton: React.FC<CloseButtonProps> = ({
   onClick,
   className = "",
 }) => {
-  const playClickSound = useClickSound();
   const handleClick = () => {
-    playClickSound();
     onClick?.();
   };
   return (
