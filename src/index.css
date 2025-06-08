@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@utility no-scrollbar {
+  @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: url("https://cdn.bixmy.party/sprite-extension/UI-General-Scrolling1.png")
+    no-repeat center center;
+  background-size: cover;
+  border-radius: 4px;
+}
