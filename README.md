@@ -1,54 +1,94 @@
-# React + TypeScript + Vite
+# NotMondayCafeTwitchExtension
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Twitch Extension frontend built with **React**, **TypeScript**, **Tailwind CSS**, and **Vite**.
 
-Currently, two official plugins are available:
+> ✅ Completely rewritten from scratch to improve code clarity, modularity, and responsive behavior.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 🧠 **React + TypeScript** – Strongly typed, component-based UI
+- 🎨 **Tailwind CSS** – Utility-first responsive design
+- ⚡ **Vite** – Fast dev server and build
+- 🌐 **Twitch Extension API + WebSocket** – Live interaction with streamer/server
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+---
+
+## 🧩 Project Structure Overview
+
+### 🔷 `MainPage.tsx`
+The entry point of the Twitch Extension UI. Handles:
+- Twitch identity auth
+- Real-time game state updates via WebSocket
+- Navigation between each frame (`Join`, `Order`, `Review`, `Queue`)
+- Dynamic buttons + hover behavior for switching screens
+
+---
+
+## 📖 Application Flow
+
+```
+[MainPage] 
+   └── QueueFrame  →  JoinFrame  →  OrderFrame  →  ReviewFrame
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+| Frame | Description |
+|-------|-------------|
+| **JoinFrame** | Viewers choose a character (Skin) |
+| **OrderFrame** | Choose food/menu from gameState |
+| **ReviewFrame** | Rate order and submit review |
+| **QueueFrame** | View current queue & cafe status |
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+> All frames are displayed as modal overlays on top of `MainPage`.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+---
+
+## 📦 Features
+
+- ✅ Fully responsive with auto-scaling via `useResponsiveScale`
+- ♻️ Reusable components: `CloseButton`, `StatusProgress`, `CustomerButton`, etc.
+- 🧩 Modular and easy to maintain
+- 💬 Real-time game state syncing from server via WebSocket
+- 🔒 Twitch identity verification using `requestIdShare`
+
+---
+
+## 🛠 Development
+
+### 🔧 Install dependencies:
+```bash
+npm install
 ```
+
+### 🚀 Start dev server:
+```bash
+npm run dev
+```
+
+### 🌐 Twitch Auth Notes:
+- Local dev uses mock game state (`mock_game_state.json`)
+- When deployed, Twitch Extension will:
+  - Request identity via `requestIdShare`
+  - Fetch user info from backend `/extension/login`
+  - Open WebSocket to subscribe to `game-state`
+
+---
+
+## 🗂 File Structure (short)
+
+```
+src/
+├── components/        # UI components (buttons, wrappers)
+├── pages/            # Main UI screens (MainPage,Join, Order, etc.)
+├── hooks/             # Custom hooks (e.g. responsive scale)
+├── types/             # Type definitions for GameState etc.
+├── mock_game_state.json
+     
+```
+
+---
+
+## 👤 Author
+
+This extension frontend was developed and refactored by [NantawatTawan](https://github.com/NantawatTawan) with love and focus on Twitch UX.
