@@ -115,7 +115,7 @@ export const OrderFrame: React.FC<Props> = ({
                       justifyContent: "center",
                       maxHeight: "3em",
                       minHeight: "3em",
-                      height: "3em", // ✅ เพิ่ม height แบบตายตัว
+                      height: "3em",
                       width: "8em",
                     }}
                   >

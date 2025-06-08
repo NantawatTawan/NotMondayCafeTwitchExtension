@@ -136,14 +136,20 @@ export const ReviewFrame: React.FC<Props> = ({
                     }
                   />
                   <div
-                    className="w-full text-center bg-[#f7f4f0] px-2 py-1 text-[10px] leading-tight overflow-auto no-scrollbar"
+                    className=" text-center bg-[#f7f4f0] px-2 py-1 text-[10px] leading-tight overflow-hidden"
                     style={{
-                      maxWidth: "9em",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
                       maxHeight: "3em",
                       minHeight: "3em",
+                      height: "3em",
+                      width: "8em",
                     }}
                   >
-                    <span className="line-clamp-2  ">{selectedFood.name}</span>
+                    <span className="line-clamp-2 text-ellipsis overflow-hidden">
+                      {selectedFood.name}
+                    </span>
                   </div>
                 </>
               ) : (
