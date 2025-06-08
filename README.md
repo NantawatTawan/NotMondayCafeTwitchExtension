@@ -30,7 +30,7 @@ The entry point of the Twitch Extension UI. Handles:
 
 ```
 [MainPage] 
-   └── JoinFrame  →  OrderFrame  →  ReviewFrame  →  QueueFrame
+   └── QueueFrame  →  JoinFrame  →  OrderFrame  →  ReviewFrame
 ```
 
 | Frame | Description |
