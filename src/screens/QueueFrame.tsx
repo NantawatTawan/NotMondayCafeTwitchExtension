@@ -38,8 +38,8 @@ export const QueueFrame = ({
         </div>
 
         {/* Grid แสดง Queue */}
-        <div className="flex-grow overflow-y-auto bg-[rgba(247,242,236,0.5)] border border-gray-200 rounded-md p-2">
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-2 auto-rows-[85px]">
+        <div className="flex-grow overflow-y-auto bg-[rgba(247,242,236,0.5)] border border-gray-200 rounded-md p-0">
+          <div className="grid grid-cols-1 gap-y-1 overflow-y-auto max-h-full p-2 pt">
             {inCafeData.map((item, idx) => (
               <QueueItem
                 key={`cafe-${idx}`}

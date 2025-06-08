@@ -26,7 +26,7 @@ export const QueueItem = ({
     display: "flex",
     alignItems: "center",
     gap: "clamp(6px, 2vw, 10px)",
-    width: "clamp(160px, 40vw, 240px)",
+    width: "100%",
     height: "clamp(60px, 13vw, 85px)",
     padding: "clamp(6px, 1.5vw, 12px) clamp(4px, 1vw, 8px)",
 
