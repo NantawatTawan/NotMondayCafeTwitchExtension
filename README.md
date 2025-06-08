@@ -1,54 +1,58 @@
-# React + TypeScript + Vite
+# NotMondayCafeTwitchExtension
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Twitch Extension UI built with **React**, **TypeScript**, **Tailwind CSS**, and **Vite**.
 
-Currently, two official plugins are available:
+> ✅ This is a complete UI refactor and responsive redesign of the original project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **React** + **TypeScript**
+- **Tailwind CSS** for styling
+- **Vite** for fast dev build
+- Custom logic with `useResponsiveScale()` and reusable components
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🧩 Pages & Components
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### ✅ `JoinFrame`
+- Allows viewers to select a character (Skin)
+- Responsive grid of characters
+- Sends selected character to the host
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+### ✅ `QueueFrame`
+- Shows who is in queue or in cafe
+- Dynamically updated from game state
+- Responsive layout with custom queue item components
+
+### ✅ `OrderFrame`
+- Viewers choose their food (menu item) to order
+- List of available foods shown in a responsive grid
+- Validates selection before proceeding
+
+### ✅ `ReviewFrame`
+- Review the character & food chosen
+- Add star rating (1–5) and comment
+- Supports mobile textarea expand view (`FullTextEditor`)
+
+---
+
+## 📦 Features
+
+- ♻️ Reusable components: `CloseButton`, `NextButton`, `BackButton`, `StatusProgress`, etc.
+- 📱 Mobile-first responsive layout with scaling fallback
+- 🧠 Clean state & props management
+- 🧪 Ready for extension integration with Twitch backend
+
+---
+
+## 🛠 How to Run Locally
+
+```bash
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
