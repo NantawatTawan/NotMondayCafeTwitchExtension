@@ -13,8 +13,8 @@ export const ResponsivePanelWrapper: React.FC<Props> = ({ children }) => {
         minWidth: isLandscape ? "100vh" : "120vw",
         height: "min(660px,calc(160vh - 35vh))",
         transform: isLandscape
-          ? `scale(${scale}) translateX(-12.5vw)`
-          : `scale(${scale}) translateX(-40vw)`,
+          ? `scale(${scale}) translateX(-5.5vw)`
+          : `scale(${scale}) translateX(-25vw)`,
         transformOrigin: "top",
         marginTop: "6vh",
         marginRight: "50%",
