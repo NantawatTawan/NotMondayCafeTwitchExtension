@@ -80,11 +80,11 @@ npm run dev
 ```
 src/
 ├── components/        # UI components (buttons, wrappers)
-├── frames/            # Main UI screens (Join, Order, etc.)
+├── pages/            # Main UI screens (MainPage,Join, Order, etc.)
 ├── hooks/             # Custom hooks (e.g. responsive scale)
 ├── types/             # Type definitions for GameState etc.
 ├── mock_game_state.json
-└── MainPage.tsx       # Core controller of all frames
+     
 ```
 
 ---
