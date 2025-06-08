@@ -1,58 +1,94 @@
 # NotMondayCafeTwitchExtension
 
-A modern Twitch Extension UI built with **React**, **TypeScript**, **Tailwind CSS**, and **Vite**.
+A modern Twitch Extension frontend built with **React**, **TypeScript**, **Tailwind CSS**, and **Vite**.
 
-> ✅ This is a complete UI refactor and responsive redesign of the original project.
+> ✅ Completely rewritten from scratch to improve code clarity, modularity, and responsive behavior.
 
 ---
 
 ## 🚀 Tech Stack
 
-- **React** + **TypeScript**
-- **Tailwind CSS** for styling
-- **Vite** for fast dev build
-- Custom logic with `useResponsiveScale()` and reusable components
+- 🧠 **React + TypeScript** – Strongly typed, component-based UI
+- 🎨 **Tailwind CSS** – Utility-first responsive design
+- ⚡ **Vite** – Fast dev server and build
+- 🌐 **Twitch Extension API + WebSocket** – Live interaction with streamer/server
 
 ---
 
-## 🧩 Pages & Components
+## 🧩 Project Structure Overview
 
-### ✅ `JoinFrame`
-- Allows viewers to select a character (Skin)
-- Responsive grid of characters
-- Sends selected character to the host
+### 🔷 `MainPage.tsx`
+The entry point of the Twitch Extension UI. Handles:
+- Twitch identity auth
+- Real-time game state updates via WebSocket
+- Navigation between each frame (`Join`, `Order`, `Review`, `Queue`)
+- Dynamic buttons + hover behavior for switching screens
 
-### ✅ `QueueFrame`
-- Shows who is in queue or in cafe
-- Dynamically updated from game state
-- Responsive layout with custom queue item components
+---
 
-### ✅ `OrderFrame`
-- Viewers choose their food (menu item) to order
-- List of available foods shown in a responsive grid
-- Validates selection before proceeding
+## 📖 Application Flow
 
-### ✅ `ReviewFrame`
-- Review the character & food chosen
-- Add star rating (1–5) and comment
-- Supports mobile textarea expand view (`FullTextEditor`)
+```
+[MainPage] 
+   └── JoinFrame  →  OrderFrame  →  ReviewFrame  →  QueueFrame
+```
+
+| Frame | Description |
+|-------|-------------|
+| **JoinFrame** | Viewers choose a character (Skin) |
+| **OrderFrame** | Choose food/menu from gameState |
+| **ReviewFrame** | Rate order and submit review |
+| **QueueFrame** | View current queue & cafe status |
+
+> All frames are displayed as modal overlays on top of `MainPage`.
 
 ---
 
 ## 📦 Features
 
-- ♻️ Reusable components: `CloseButton`, `NextButton`, `BackButton`, `StatusProgress`, etc.
-- 📱 Mobile-first responsive layout with scaling fallback
-- 🧠 Clean state & props management
-- 🧪 Ready for extension integration with Twitch backend
+- ✅ Fully responsive with auto-scaling via `useResponsiveScale`
+- ♻️ Reusable components: `CloseButton`, `StatusProgress`, `CustomerButton`, etc.
+- 🧩 Modular and easy to maintain
+- 💬 Real-time game state syncing from server via WebSocket
+- 🔒 Twitch identity verification using `requestIdShare`
 
 ---
 
-## 🛠 How to Run Locally
+## 🛠 Development
 
+### 🔧 Install dependencies:
 ```bash
-# Install dependencies
 npm install
+```
 
-# Start dev server
+### 🚀 Start dev server:
+```bash
 npm run dev
+```
+
+### 🌐 Twitch Auth Notes:
+- Local dev uses mock game state (`mock_game_state.json`)
+- When deployed, Twitch Extension will:
+  - Request identity via `requestIdShare`
+  - Fetch user info from backend `/extension/login`
+  - Open WebSocket to subscribe to `game-state`
+
+---
+
+## 🗂 File Structure (short)
+
+```
+src/
+├── components/        # UI components (buttons, wrappers)
+├── frames/            # Main UI screens (Join, Order, etc.)
+├── hooks/             # Custom hooks (e.g. responsive scale)
+├── types/             # Type definitions for GameState etc.
+├── mock_game_state.json
+└── MainPage.tsx       # Core controller of all frames
+```
+
+---
+
+## 👤 Author
+
+This extension frontend was developed and refactored by [NantawatTawan](https://github.com/NantawatTawan) with love and focus on Twitch UX.
