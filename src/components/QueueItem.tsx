@@ -6,7 +6,11 @@ const capitalize = (str: string) => {
 
 const getCharacterImageUrl = (name: string): string => {
   const baseName = capitalize((name || "Anonymous").trim());
-  return `https://cdn.bixmy.party/Customer-Icon/Character_Customer_${baseName}1_Idle.png`;
+ const hasNumber = /\d/.test(baseName);
+  const suffix = hasNumber ? "" : "1";
+
+  return `https://cdn.bixmy.party/Customer-Icon/Character_Customer_${baseName}${suffix}_Idle.png`;
+ 
 };
 
 export const QueueItem = ({

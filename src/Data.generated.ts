@@ -8,29 +8,29 @@ export interface Food {
 export const availableFoods = [
   {
     id: "1",
-    name: "Bingsu-BlueRaspberrySnowCone",
+    name: "Blueberry Bingsu",
+    imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Bingsu-Blueberry.png",
+    bigImageUrl:
+      "https://cdn.bixmy.party/PNG-Big-Desserts-New/Bingsu-Blueberry.png",
+  },
+  {
+    id: "2",
+    name: "Blue Raspberry Snow Cone Bingsu",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/Bingsu-BlueRaspberrySnowCone.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Bingsu-BlueRaspberrySnowCone.png",
   },
   {
-    id: "2",
-    name: "Bingsu-Blueberry",
-    imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Bingsu-Blueberry.png",
-    bigImageUrl:
-      "https://cdn.bixmy.party/PNG-Big-Desserts-New/Bingsu-Blueberry.png",
-  },
-  {
     id: "3",
-    name: "Bingsu-Cantaloupe",
+    name: "Melon Bingsu",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Bingsu-Cantaloupe.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Bingsu-Cantaloupe.png",
   },
   {
     id: "4",
-    name: "Bingsu-CaramelBanana",
+    name: "Caramel Banana Bingsu",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/Bingsu-CaramelBanana.png",
     bigImageUrl:
@@ -38,7 +38,7 @@ export const availableFoods = [
   },
   {
     id: "5",
-    name: "Bingsu-CherrySnowCone",
+    name: "Cherry Snow Cone Bingsu",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/Bingsu-CherrySnowCone.png",
     bigImageUrl:
@@ -46,7 +46,7 @@ export const availableFoods = [
   },
   {
     id: "6",
-    name: "Bingsu-ChocolateBanana",
+    name: "Chocolate Banana Bingsu",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/Bingsu-ChocolateBanana.png",
     bigImageUrl:
@@ -54,7 +54,7 @@ export const availableFoods = [
   },
   {
     id: "7",
-    name: "Bingsu-DragonfruitKiwi",
+    name: "Dragonfruit Kiwi Bingsu",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/Bingsu-DragonfruitKiwi.png",
     bigImageUrl:
@@ -62,28 +62,28 @@ export const availableFoods = [
   },
   {
     id: "8",
-    name: "Bingsu-Mango",
+    name: "Mango Bingsu",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Bingsu-Mango.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Bingsu-Mango.png",
   },
   {
     id: "9",
-    name: "Bingsu-Strawberry",
+    name: "Strawberry Bingsu",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Bingsu-Strawberry.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Bingsu-Strawberry.png",
   },
   {
     id: "10",
-    name: "Bingsu-Watermelon",
+    name: "Watermelon Bingsu",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Bingsu-Watermelon.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Bingsu-Watermelon.png",
   },
   {
     id: "11",
-    name: "Bread-BananaBreadMuffin",
+    name: "Banana Bread Muffin",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/Bread-BananaBreadMuffin.png",
     bigImageUrl:
@@ -91,7 +91,7 @@ export const availableFoods = [
   },
   {
     id: "12",
-    name: "Bread-BlueberryMuffin",
+    name: "Blueberry Muffin",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/Bread-BlueberryMuffin.png",
     bigImageUrl:
@@ -99,97 +99,97 @@ export const availableFoods = [
   },
   {
     id: "13",
-    name: "Bread-Brownie",
+    name: "Brownie",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Bread-Brownie.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Bread-Brownie.png",
   },
   {
     id: "14",
-    name: "Bread-Challah",
+    name: "Challah",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Bread-Challah.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Bread-Challah.png",
   },
   {
     id: "15",
-    name: "Bread-CreamCoronet",
+    name: "Cream Coronet",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Bread-CreamCoronet.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Bread-CreamCoronet.png",
   },
   {
     id: "16",
-    name: "Bread-Focaccia",
+    name: "Focaccia",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Bread-Focaccia.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Bread-Focaccia.png",
   },
   {
     id: "17",
-    name: "Bread-HawaiianRoll",
+    name: "Hawaiian Roll",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Bread-HawaiianRoll.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Bread-HawaiianRoll.png",
   },
   {
     id: "18",
-    name: "Bread-MelonPan",
+    name: "Melon Pan",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Bread-MelonPan.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Bread-MelonPan.png",
   },
   {
     id: "19",
-    name: "Bread-PandanBun",
+    name: "Pandan Bun",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Bread-PandanBun.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Bread-PandanBun.png",
   },
   {
     id: "20",
-    name: "Bread-Pretzel",
+    name: "Pretzel",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Bread-Pretzel.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Bread-Pretzel.png",
   },
   {
     id: "21",
-    name: "Bread-RedBeanBun",
+    name: "Red Bean Bun",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Bread-RedBeanBun.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Bread-RedBeanBun.png",
   },
   {
     id: "22",
-    name: "Bread-Sourdough",
+    name: "Sourdough",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Bread-Sourdough.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Bread-Sourdough.png",
   },
   {
     id: "23",
-    name: "Bread-Waffle",
+    name: "Waffle",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Bread-Waffle.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Bread-Waffle.png",
   },
   {
     id: "24",
-    name: "Cake-Carrot",
+    name: "Carrot Cake",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Cake-Carrot.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Desserts-New/Cake-Carrot.png",
   },
   {
     id: "25",
-    name: "Cake-Castella",
+    name: "Castella Cake",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Cake-Castella.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Cake-Castella.png",
   },
   {
     id: "26",
-    name: "Cake-ChocolateOrange",
+    name: "Chocolate Orange Cake",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/Cake-ChocolateOrange.png",
     bigImageUrl:
@@ -197,7 +197,7 @@ export const availableFoods = [
   },
   {
     id: "27",
-    name: "Cake-ChocolateRaspberryMousse",
+    name: "Chocolate Raspberry Mousse Cake",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/Cake-ChocolateRaspberryMousse.png",
     bigImageUrl:
@@ -205,14 +205,14 @@ export const availableFoods = [
   },
   {
     id: "28",
-    name: "Cake-CoffeeRoll",
+    name: "Coffee Roll",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Cake-CoffeeRoll.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Cake-CoffeeRoll.png",
   },
   {
     id: "29",
-    name: "Cake-GreenGrapeShortcake",
+    name: "Green Grape Shortcake",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/Cake-GreenGrapeShortcake.png",
     bigImageUrl:
@@ -220,28 +220,28 @@ export const availableFoods = [
   },
   {
     id: "30",
-    name: "Cake-MangoMousse",
+    name: "Mango Mousse Cake",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Cake-MangoMousse.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Cake-MangoMousse.png",
   },
   {
     id: "31",
-    name: "Cake-PandanRoll",
+    name: "Pandan Roll",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Cake-PandanRoll.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Cake-PandanRoll.png",
   },
   {
     id: "32",
-    name: "Cake-RedVelvet",
+    name: "Red Velvet Cake",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Cake-RedVelvet.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Cake-RedVelvet.png",
   },
   {
     id: "33",
-    name: "Cake-StrawberryShortcake",
+    name: "Strawberry Shortcake",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/Cake-StrawberryShortcake.png",
     bigImageUrl:
@@ -249,14 +249,14 @@ export const availableFoods = [
   },
   {
     id: "34",
-    name: "Cake-Tiramisu",
+    name: "Tiramisu Cake",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Cake-Tiramisu.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Cake-Tiramisu.png",
   },
   {
     id: "35",
-    name: "Candy-CaramelPopcorn",
+    name: "Caramel Popcorn",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/Candy-CaramelPopcorn.png",
     bigImageUrl:
@@ -264,35 +264,35 @@ export const availableFoods = [
   },
   {
     id: "36",
-    name: "Candy-Chocolate",
+    name: "Chocolate",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Candy-Chocolate.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Candy-Chocolate.png",
   },
   {
     id: "37",
-    name: "Candy-CottonCandy",
+    name: "Cotton Candy",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Candy-CottonCandy.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Candy-CottonCandy.png",
   },
   {
     id: "38",
-    name: "Candy-Lolipop",
+    name: "Lolipop",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Candy-Lolipop.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Candy-Lolipop.png",
   },
   {
     id: "39",
-    name: "Cookie-Butter",
+    name: "Butter Cookie",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Cookie-Butter.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Cookie-Butter.png",
   },
   {
     id: "40",
-    name: "Cookie-ChocolateChip",
+    name: "Chocolate Chip Cookie",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/Cookie-ChocolateChip.png",
     bigImageUrl:
@@ -300,35 +300,35 @@ export const availableFoods = [
   },
   {
     id: "41",
-    name: "Cookie-Fortune",
+    name: "Fortune Cookie",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Cookie-Fortune.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Cookie-Fortune.png",
   },
   {
     id: "42",
-    name: "Cookie-Linzer",
+    name: "Linzer Cookie",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Cookie-Linzer.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Cookie-Linzer.png",
   },
   {
     id: "43",
-    name: "Cookie-Macaron",
+    name: "Macaron",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Cookie-Macaron.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Cookie-Macaron.png",
   },
   {
     id: "44",
-    name: "Cookie-Madeleine",
+    name: "Madeleine Cookie",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Cookie-Madeleine.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Cookie-Madeleine.png",
   },
   {
     id: "45",
-    name: "Cookie-PeacanButter",
+    name: "Peacan Butter Cookie",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/Cookie-PeacanButter.png",
     bigImageUrl:
@@ -336,14 +336,14 @@ export const availableFoods = [
   },
   {
     id: "46",
-    name: "Cookie-Pinwheel",
+    name: "Pinwheel Cookie",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Cookie-Pinwheel.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Cookie-Pinwheel.png",
   },
   {
     id: "47",
-    name: "Donut-BlueberryFilling",
+    name: "Blueberry Filling Donut",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/Donut-BlueberryFilling.png",
     bigImageUrl:
@@ -351,14 +351,14 @@ export const availableFoods = [
   },
   {
     id: "48",
-    name: "Donut-ChocolateOld",
+    name: "Chocolate Old Fashioned Donut",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Donut-ChocolateOld.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Donut-ChocolateOld.png",
   },
   {
     id: "49",
-    name: "Donut-ChocolateSprinkle",
+    name: "Chocolate Sprinkle Donut",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/Donut-ChocolateSprinkle.png",
     bigImageUrl:
@@ -366,41 +366,41 @@ export const availableFoods = [
   },
   {
     id: "50",
-    name: "Donut-CreamFilling",
+    name: "Cream Filling Donut",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Donut-CreamFilling.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Donut-CreamFilling.png",
   },
   {
     id: "51",
-    name: "Donut-Glazed",
+    name: "Glazed Donut",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Donut-Glazed.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Donut-Glazed.png",
   },
   {
     id: "52",
-    name: "Donut-GlazedOld",
+    name: "Glazed Old Fashioned Donut",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Donut-GlazedOld.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Donut-GlazedOld.png",
   },
   {
     id: "53",
-    name: "Donut-Mochi",
+    name: "Mochi Donut",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Donut-Mochi.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Desserts-New/Donut-Mochi.png",
   },
   {
     id: "54",
-    name: "Donut-PinkSprinkle",
+    name: "Pink Sprinkle Donut",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Donut-PinkSprinkle.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Donut-PinkSprinkle.png",
   },
   {
     id: "55",
-    name: "Donut-RaspberryFilling",
+    name: "Raspberry Filling Donut",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/Donut-RaspberryFilling.png",
     bigImageUrl:
@@ -408,13 +408,13 @@ export const availableFoods = [
   },
   {
     id: "56",
-    name: "Donut-Sugar",
+    name: "Sugar Donut",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Donut-Sugar.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Desserts-New/Donut-Sugar.png",
   },
   {
     id: "57",
-    name: "IceCream-BananaSplit",
+    name: "Banana Split",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/IceCream-BananaSplit.png",
     bigImageUrl:
@@ -422,21 +422,21 @@ export const availableFoods = [
   },
   {
     id: "58",
-    name: "IceCream-Blueberry",
+    name: "Blueberry Ice Cream",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/IceCream-Blueberry.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/IceCream-Blueberry.png",
   },
   {
     id: "59",
-    name: "IceCream-Chocolate",
+    name: "Chocolate Ice Cream",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/IceCream-Chocolate.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/IceCream-Chocolate.png",
   },
   {
     id: "60",
-    name: "IceCream-ChocolateMint",
+    name: "Chocolate Mint Ice Cream",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/IceCream-ChocolateMint.png",
     bigImageUrl:
@@ -444,7 +444,7 @@ export const availableFoods = [
   },
   {
     id: "61",
-    name: "IceCream-CookieAndCream",
+    name: "Cookie And Cream Ice Cream",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/IceCream-CookieAndCream.png",
     bigImageUrl:
@@ -452,7 +452,7 @@ export const availableFoods = [
   },
   {
     id: "62",
-    name: "IceCream-MatchaSoftServe",
+    name: "Matcha Soft Serve",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/IceCream-MatchaSoftServe.png",
     bigImageUrl:
@@ -460,7 +460,7 @@ export const availableFoods = [
   },
   {
     id: "63",
-    name: "IceCream-MilkSoftServe",
+    name: "Milk Soft Serve",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/IceCream-MilkSoftServe.png",
     bigImageUrl:
@@ -468,7 +468,7 @@ export const availableFoods = [
   },
   {
     id: "64",
-    name: "IceCream-OrangeCone",
+    name: "Orange Ice Cream Cone",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/IceCream-OrangeCone.png",
     bigImageUrl:
@@ -476,23 +476,23 @@ export const availableFoods = [
   },
   {
     id: "65",
-    name: "IceCream-RaspberryCone",
-    imageUrl:
-      "https://cdn.bixmy.party/PNG-Desserts-New/IceCream-RaspberryCone.png",
-    bigImageUrl:
-      "https://cdn.bixmy.party/PNG-Big-Desserts-New/IceCream-RaspberryCone.png",
-  },
-  {
-    id: "66",
-    name: "IceCream-SaltedCaramel",
+    name: "Salted Caramel Ice Cream",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/IceCream-SaltedCaramel.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/IceCream-SaltedCaramel.png",
   },
   {
+    id: "66",
+    name: "Raspberry Ice Cream Cone",
+    imageUrl:
+      "https://cdn.bixmy.party/PNG-Desserts-New/IceCream-RaspberryCone.png",
+    bigImageUrl:
+      "https://cdn.bixmy.party/PNG-Big-Desserts-New/IceCream-RaspberryCone.png",
+  },
+  {
     id: "67",
-    name: "IceCream-StrawberrrySundea",
+    name: "Strawberry Sundea",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/IceCream-StrawberrrySundea.png",
     bigImageUrl:
@@ -500,7 +500,7 @@ export const availableFoods = [
   },
   {
     id: "68",
-    name: "IceCream-Strawberry",
+    name: "Strawberry Ice Cream",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/IceCream-Strawberry.png",
     bigImageUrl:
@@ -508,7 +508,7 @@ export const availableFoods = [
   },
   {
     id: "69",
-    name: "IceCream-TwotoneSoftServe1",
+    name: "Vanilla And Chocolate Soft Serve",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/IceCream-TwotoneSoftServe1.png",
     bigImageUrl:
@@ -516,7 +516,7 @@ export const availableFoods = [
   },
   {
     id: "70",
-    name: "IceCream-TwotoneSoftServe2",
+    name: "Strawberry And Chocolate Soft Serve",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/IceCream-TwotoneSoftServe2.png",
     bigImageUrl:
@@ -524,14 +524,14 @@ export const availableFoods = [
   },
   {
     id: "71",
-    name: "IceCream-Vanilla",
+    name: "Vanilla Ice Cream",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/IceCream-Vanilla.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/IceCream-Vanilla.png",
   },
   {
     id: "72",
-    name: "IceCream-VanillaSundea",
+    name: "Vanilla Sundea",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/IceCream-VanillaSundea.png",
     bigImageUrl:
@@ -539,7 +539,7 @@ export const availableFoods = [
   },
   {
     id: "73",
-    name: "Pastry-BlueberryCreamCheeseDanish",
+    name: "Blueberry Cream Cheese Danish",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/Pastry-BlueberryCreamCheeseDanish.png",
     bigImageUrl:
@@ -547,21 +547,21 @@ export const availableFoods = [
   },
   {
     id: "74",
-    name: "Pastry-Canele",
+    name: "Canele",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Pastry-Canele.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Pastry-Canele.png",
   },
   {
     id: "75",
-    name: "Pastry-ChouxCream",
+    name: "Choux Cream",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Pastry-ChouxCream.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Pastry-ChouxCream.png",
   },
   {
     id: "76",
-    name: "Pastry-CinnamonRoll",
+    name: "Cinnamon Roll",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/Pastry-CinnamonRoll.png",
     bigImageUrl:
@@ -569,28 +569,28 @@ export const availableFoods = [
   },
   {
     id: "77",
-    name: "Pastry-Croissant",
+    name: "Croissant",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Pastry-Croissant.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Pastry-Croissant.png",
   },
   {
     id: "78",
-    name: "Pastry-Eclair",
+    name: "Eclair",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Pastry-Eclair.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Pastry-Eclair.png",
   },
   {
     id: "79",
-    name: "Pastry-FruitTart",
+    name: "Fruit Tart",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Pastry-FruitTart.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Pastry-FruitTart.png",
   },
   {
     id: "80",
-    name: "Pastry-PainAuChocolate",
+    name: "Pain Au Chocolate",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/Pastry-PainAuChocolate.png",
     bigImageUrl:
@@ -598,7 +598,7 @@ export const availableFoods = [
   },
   {
     id: "81",
-    name: "Pastry-RaspberryMilleFeuille",
+    name: "Raspberry MilleFeuille",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/Pastry-RaspberryMilleFeuille.png",
     bigImageUrl:
@@ -606,27 +606,27 @@ export const availableFoods = [
   },
   {
     id: "82",
-    name: "Pie-Apple",
+    name: "Apple Pie",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Pie-Apple.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Desserts-New/Pie-Apple.png",
   },
   {
     id: "83",
-    name: "Pie-Banoffee",
+    name: "Banoffee Pie",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Pie-Banoffee.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Pie-Banoffee.png",
   },
   {
     id: "84",
-    name: "Pie-Blueberry",
+    name: "Blueberry Pie",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Pie-Blueberry.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Pie-Blueberry.png",
   },
   {
     id: "85",
-    name: "Pie-CherryCreamCheese",
+    name: "Cherry Cream Cheese Pie",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/Pie-CherryCreamCheese.png",
     bigImageUrl:
@@ -634,41 +634,41 @@ export const availableFoods = [
   },
   {
     id: "86",
-    name: "Pie-CoconutCream",
+    name: "Coconut Cream Pie",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Pie-CoconutCream.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Pie-CoconutCream.png",
   },
   {
     id: "87",
-    name: "Pie-Lemon",
+    name: "Lemon Pie",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Pie-Lemon.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Desserts-New/Pie-Lemon.png",
   },
   {
     id: "88",
-    name: "Pie-Pineapple",
+    name: "Pineapple Pie",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Pie-Pineapple.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Pie-Pineapple.png",
   },
   {
     id: "89",
-    name: "Popsicle-BlueSoda",
+    name: "Blue Soda Popsicle",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Popsicle-BlueSoda.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Popsicle-BlueSoda.png",
   },
   {
     id: "90",
-    name: "Popsicle-Chocolate",
+    name: "Chocolate Popsicle",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Popsicle-Chocolate.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Popsicle-Chocolate.png",
   },
   {
     id: "91",
-    name: "Popsicle-DragonFruit",
+    name: "Dragonfruit Popsicle",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/Popsicle-DragonFruit.png",
     bigImageUrl:
@@ -676,14 +676,14 @@ export const availableFoods = [
   },
   {
     id: "92",
-    name: "Popsicle-Rainbow",
+    name: "Rainbow Popsicle",
     imageUrl: "https://cdn.bixmy.party/PNG-Desserts-New/Popsicle-Rainbow.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Desserts-New/Popsicle-Rainbow.png",
   },
   {
     id: "93",
-    name: "Popsicle-StrawberryJelly",
+    name: "Strawberry Jelly Popsicle",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/Popsicle-StrawberryJelly.png",
     bigImageUrl:
@@ -691,7 +691,7 @@ export const availableFoods = [
   },
   {
     id: "94",
-    name: "Popsicle-Watermelon",
+    name: "Watermelon Popsicle",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Desserts-New/Popsicle-Watermelon.png",
     bigImageUrl:
@@ -699,21 +699,21 @@ export const availableFoods = [
   },
   {
     id: "95",
-    name: "Boba-BerryIcedTea",
+    name: "Mixed Berry Boba Tea",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Boba-BerryIcedTea.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Boba-BerryIcedTea.png",
   },
   {
     id: "96",
-    name: "Boba-BrownSugar",
+    name: "Brown Sugar Boba Tea",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Boba-BrownSugar.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Boba-BrownSugar.png",
   },
   {
     id: "97",
-    name: "Boba-ButterflyPeaLemonIcedTea",
+    name: "Butterfly Pea Lemon Boba Tea",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/Boba-ButterflyPeaLemonIcedTea.png",
     bigImageUrl:
@@ -721,48 +721,48 @@ export const availableFoods = [
   },
   {
     id: "98",
-    name: "Boba-CookieAndCream",
+    name: "Cookie And Cream Boba Tea",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Boba-CookieAndCream.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Boba-CookieAndCream.png",
   },
   {
     id: "99",
-    name: "Boba-HoneydewMilkTea",
+    name: "Honeydew Boba Tea",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Boba-HoneydewMilkTea.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Boba-HoneydewMilkTea.png",
   },
   {
     id: "100",
-    name: "Boba-LemonIcedTea",
+    name: "Lemon Boba Tea",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Boba-LemonIcedTea.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Boba-LemonIcedTea.png",
   },
   {
     id: "101",
-    name: "Boba-LycheeTea",
+    name: "Lychee Boba Tea",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Boba-LycheeTea.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Boba-LycheeTea.png",
   },
   {
     id: "102",
-    name: "Boba-MatchaLatte",
+    name: "Matcha Latte Boba Tea",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Boba-MatchaLatte.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Boba-MatchaLatte.png",
   },
   {
     id: "103",
-    name: "Boba-MilkTea",
+    name: "Milk Boba Tea",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Boba-MilkTea.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Boba-MilkTea.png",
   },
   {
     id: "104",
-    name: "Boba-MintCookieAndCream",
+    name: "Mint Cookie And Cream Boba Tea",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/Boba-MintCookieAndCream.png",
     bigImageUrl:
@@ -770,33 +770,33 @@ export const availableFoods = [
   },
   {
     id: "105",
-    name: "Boba-PassionTea",
+    name: "Passion Boba Tea",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Boba-PassionTea.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Boba-PassionTea.png",
   },
   {
     id: "106",
-    name: "Boba-StrawberryMilk",
+    name: "Strawberry Boba Tea",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Boba-StrawberryMilk.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Boba-StrawberryMilk.png",
   },
   {
     id: "107",
-    name: "Boba-TaroMilk",
+    name: "Taro Milk Boba Tea",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Boba-TaroMilk.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Boba-TaroMilk.png",
   },
   {
     id: "108",
-    name: "Boba-ThaiTea",
+    name: "Thai Tea Boba Tea",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Boba-ThaiTea.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Boba-ThaiTea.png",
   },
   {
     id: "109",
-    name: "CoffeeFrappe-Affocato",
+    name: "Affocato",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/CoffeeFrappe-Affocato.png",
     bigImageUrl:
@@ -804,7 +804,7 @@ export const availableFoods = [
   },
   {
     id: "110",
-    name: "CoffeeFrappe-MochaFrappuccino",
+    name: "Mocha Frappuccino",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/CoffeeFrappe-MochaFrappuccino.png",
     bigImageUrl:
@@ -812,7 +812,7 @@ export const availableFoods = [
   },
   {
     id: "111",
-    name: "CoffeeFrappe-PumpkinSpiceFrappucino",
+    name: "Pumpkin Spice Frappucino",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/CoffeeFrappe-PumpkinSpiceFrappucino.png",
     bigImageUrl:
@@ -820,21 +820,21 @@ export const availableFoods = [
   },
   {
     id: "112",
-    name: "CoffeeHot-Americano",
+    name: "Hot Americano",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/CoffeeHot-Americano.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/CoffeeHot-Americano.png",
   },
   {
     id: "113",
-    name: "CoffeeHot-Cappuccino",
+    name: "Hot Cappuccino",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/CoffeeHot-Cappuccino.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/CoffeeHot-Cappuccino.png",
   },
   {
     id: "114",
-    name: "CoffeeHot-CaramelMacchiato",
+    name: "Hot Caramel Macchiato",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/CoffeeHot-CaramelMacchiato.png",
     bigImageUrl:
@@ -842,14 +842,14 @@ export const availableFoods = [
   },
   {
     id: "115",
-    name: "CoffeeHot-Espesso",
+    name: "Hot Espesso",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/CoffeeHot-Espesso.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/CoffeeHot-Espesso.png",
   },
   {
     id: "116",
-    name: "CoffeeHot-EspessoRomano",
+    name: "Hot Espesso Romano",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/CoffeeHot-EspessoRomano.png",
     bigImageUrl:
@@ -857,28 +857,28 @@ export const availableFoods = [
   },
   {
     id: "117",
-    name: "CoffeeHot-Latte",
+    name: "Hot Latte",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/CoffeeHot-Latte.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/CoffeeHot-Latte.png",
   },
   {
     id: "118",
-    name: "CoffeeHot-Mocha",
+    name: "Hot Mocha",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/CoffeeHot-Mocha.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/CoffeeHot-Mocha.png",
   },
   {
     id: "119",
-    name: "Iced-Americano",
+    name: "Iced Americano",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Iced-Americano.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Iced-Americano.png",
   },
   {
     id: "120",
-    name: "Iced-AmericanoOrangeJuice",
+    name: "Iced Americano Orange Juice",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/Iced-AmericanoOrangeJuice.png",
     bigImageUrl:
@@ -886,13 +886,13 @@ export const availableFoods = [
   },
   {
     id: "121",
-    name: "Iced-BerryTea",
+    name: "Iced Berry Tea",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Iced-BerryTea.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Iced-BerryTea.png",
   },
   {
     id: "122",
-    name: "Iced-ButterflyPeaLemonTea",
+    name: "Iced Butterfly Pea Lemon Tea",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/Iced-ButterflyPeaLemonTea.png",
     bigImageUrl:
@@ -900,14 +900,14 @@ export const availableFoods = [
   },
   {
     id: "123",
-    name: "Iced-EspressoRomano",
+    name: "Iced Espresso Romano",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Iced-EspressoRomano.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Iced-EspressoRomano.png",
   },
   {
     id: "124",
-    name: "Iced-FreddoCappuccino",
+    name: "Iced Freddo Cappuccino",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/Iced-FreddoCappuccino.png",
     bigImageUrl:
@@ -915,41 +915,41 @@ export const availableFoods = [
   },
   {
     id: "125",
-    name: "Iced-HojichaLatte",
+    name: "Iced Hojicha Latte",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Iced-HojichaLatte.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Iced-HojichaLatte.png",
   },
   {
     id: "126",
-    name: "Iced-LemonTea",
+    name: "Iced Lemon Tea",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Iced-LemonTea.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Iced-LemonTea.png",
   },
   {
     id: "127",
-    name: "Iced-MatchaLatte",
+    name: "Iced Matcha Latte",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Iced-MatchaLatte.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Iced-MatchaLatte.png",
   },
   {
     id: "128",
-    name: "Iced-MintCoffeeLatte",
+    name: "Iced Mint Coffee Latte",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Iced-MintCoffeeLatte.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Iced-MintCoffeeLatte.png",
   },
   {
     id: "129",
-    name: "Iced-MochaLatte",
+    name: "Iced Mocha Latte",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Iced-MochaLatte.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Iced-MochaLatte.png",
   },
   {
     id: "130",
-    name: "Iced-PumpkinSpiceLatte",
+    name: "Iced Pumpkin Spice Latte",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/Iced-PumpkinSpiceLatte.png",
     bigImageUrl:
@@ -957,7 +957,7 @@ export const availableFoods = [
   },
   {
     id: "131",
-    name: "Iced-RaspberryRoseTea",
+    name: "Iced Raspberry Rose Tea",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/Iced-RaspberryRoseTea.png",
     bigImageUrl:
@@ -965,156 +965,156 @@ export const availableFoods = [
   },
   {
     id: "132",
-    name: "Iced-ShakenEspresso",
+    name: "Iced Shaken Espresso",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Iced-ShakenEspresso.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Iced-ShakenEspresso.png",
   },
   {
     id: "133",
-    name: "Juice-Apple",
+    name: "Apple Juice",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Juice-Apple.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Juice-Apple.png",
   },
   {
     id: "134",
-    name: "Juice-Cantaloupe",
+    name: "Melon Juice",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Juice-Cantaloupe.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Juice-Cantaloupe.png",
   },
   {
     id: "135",
-    name: "Juice-Carrot",
+    name: "Carrot Juice",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Juice-Carrot.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Juice-Carrot.png",
   },
   {
     id: "136",
-    name: "Juice-CoconutWater",
+    name: "Coconut Water",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Juice-CoconutWater.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Juice-CoconutWater.png",
   },
   {
     id: "137",
-    name: "Juice-Grape",
+    name: "Grape Juice",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Juice-Grape.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Juice-Grape.png",
   },
   {
     id: "138",
-    name: "Juice-Orange",
+    name: "Orange Juice",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Juice-Orange.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Juice-Orange.png",
   },
   {
     id: "139",
-    name: "Juice-Pineapple",
+    name: "Pineapple Juice",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Juice-Pineapple.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Juice-Pineapple.png",
   },
   {
     id: "140",
-    name: "Juice-Tomato",
+    name: "Tomato Juice",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Juice-Tomato.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Juice-Tomato.png",
   },
   {
     id: "141",
-    name: "Juice-Watermelon",
+    name: "Watermelon Juice",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Juice-Watermelon.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Juice-Watermelon.png",
   },
   {
     id: "142",
-    name: "Milk-Banana",
+    name: "Banana Milk",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Milk-Banana.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Milk-Banana.png",
   },
   {
     id: "143",
-    name: "Milk-Cantaloupe",
+    name: "Melon Milk",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Milk-Cantaloupe.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Milk-Cantaloupe.png",
   },
   {
     id: "144",
-    name: "Milk-Caramel",
+    name: "Caramel Milk",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Milk-Caramel.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Milk-Caramel.png",
   },
   {
     id: "145",
-    name: "Milk-DarkChocolate",
+    name: "Dark Chocolate Milk",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Milk-DarkChocolate.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Milk-DarkChocolate.png",
   },
   {
     id: "146",
-    name: "Milk-Iced",
-    imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Milk-Iced.png",
-    bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Milk-Iced.png",
-  },
-  {
-    id: "147",
-    name: "Milk-Mango",
-    imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Milk-Mango.png",
-    bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Milk-Mango.png",
-  },
-  {
-    id: "148",
-    name: "Milk-Mint",
-    imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Milk-Mint.png",
-    bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Milk-Mint.png",
-  },
-  {
-    id: "149",
-    name: "Milk-Pink",
-    imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Milk-Pink.png",
-    bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Milk-Pink.png",
-  },
-  {
-    id: "150",
-    name: "Milk-Strawberry",
-    imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Milk-Strawberry.png",
-    bigImageUrl:
-      "https://cdn.bixmy.party/PNG-Big-Drinks-New/Milk-Strawberry.png",
-  },
-  {
-    id: "151",
-    name: "Milk-Taro",
-    imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Milk-Taro.png",
-    bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Milk-Taro.png",
-  },
-  {
-    id: "152",
-    name: "MilkHot-Chocolate",
+    name: "Hot Chocolate Milk",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/MilkHot-Chocolate.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/MilkHot-Chocolate.png",
   },
-  {
-    id: "153",
-    name: "MilkHot-HotHoney",
+   {
+    id: "147",
+    name: "Hot Honey Milk",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/MilkHot-HotHoney.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/MilkHot-HotHoney.png",
   },
   {
-    id: "154",
-    name: "MilkHot-MilkHot",
-    imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/MilkHot-MilkHot.png",
+    id: "148",
+    name: "Hot Milk",
+    imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Milk-HotMilk.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/MilkHot-MilkHot.png",
   },
   {
+    id: "149",
+    name: "Iced Milk",
+    imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Milk-Iced.png",
+    bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Milk-Iced.png",
+  },
+  {
+    id: "150",
+    name: "Mango Milk",
+    imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Milk-Mango.png",
+    bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Milk-Mango.png",
+  },
+  {
+    id: "151",
+    name: "Mint Milk",
+    imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Milk-Mint.png",
+    bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Milk-Mint.png",
+  },
+  {
+    id: "152",
+    name: "Pink Milk",
+    imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Milk-Pink.png",
+    bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Milk-Pink.png",
+  },
+  {
+    id: "153",
+    name: "Strawberry Milk",
+    imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Milk-Strawberry.png",
+    bigImageUrl:
+      "https://cdn.bixmy.party/PNG-Big-Drinks-New/Milk-Strawberry.png",
+  },
+  {
+    id: "154",
+    name: "Taro Milk",
+    imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Milk-Taro.png",
+    bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Milk-Taro.png",
+  },
+  {
     id: "155",
-    name: "Milkshake-BananaChocolate",
+    name: "Banana Chocolate Milkshake",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/Milkshake-BananaChocolate.png",
     bigImageUrl:
@@ -1122,7 +1122,7 @@ export const availableFoods = [
   },
   {
     id: "156",
-    name: "Milkshake-CaramelPopcorn",
+    name: "Caramel Popcorn Milkshake",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/Milkshake-CaramelPopcorn.png",
     bigImageUrl:
@@ -1130,21 +1130,21 @@ export const availableFoods = [
   },
   {
     id: "157",
-    name: "Milkshake-Chocolate",
+    name: "Chocolate Milkshake",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Milkshake-Chocolate.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Milkshake-Chocolate.png",
   },
   {
     id: "158",
-    name: "Milkshake-Coconut",
+    name: "Coconut Milkshake",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Milkshake-Coconut.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Milkshake-Coconut.png",
   },
   {
     id: "159",
-    name: "Milkshake-CookieAndCream",
+    name: "Cookie And Cream Milkshake",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/Milkshake-CookieAndCream.png",
     bigImageUrl:
@@ -1152,7 +1152,7 @@ export const availableFoods = [
   },
   {
     id: "160",
-    name: "Milkshake-CookieAndCreamChocolate",
+    name: "Cookie And Cream Chocolate Milkshake",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/Milkshake-CookieAndCreamChocolate.png",
     bigImageUrl:
@@ -1160,14 +1160,14 @@ export const availableFoods = [
   },
   {
     id: "161",
-    name: "Milkshake-Mint",
+    name: "Mint Milkshake",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Milkshake-Mint.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Milkshake-Mint.png",
   },
   {
     id: "162",
-    name: "Milkshake-MintChocolate",
+    name: "Mint Chocolate Milkshake",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/Milkshake-MintChocolate.png",
     bigImageUrl:
@@ -1175,7 +1175,7 @@ export const availableFoods = [
   },
   {
     id: "163",
-    name: "Milkshake-OrangeCreamsicle",
+    name: "Orange Creamsicle Milkshake",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/Milkshake-OrangeCreamsicle.png",
     bigImageUrl:
@@ -1183,7 +1183,7 @@ export const availableFoods = [
   },
   {
     id: "164",
-    name: "Milkshake-PeanutButter",
+    name: "Peanut Butter Milkshake",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/Milkshake-PeanutButter.png",
     bigImageUrl:
@@ -1191,49 +1191,49 @@ export const availableFoods = [
   },
   {
     id: "165",
-    name: "Milkshake-Strawberry",
+    name: "Strawberry Milkshake",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Milkshake-Strawberry.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Milkshake-Strawberry.png",
   },
   {
     id: "166",
-    name: "Milkshake-Vanilla",
+    name: "Vanilla Milkshake",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Milkshake-Vanilla.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Milkshake-Vanilla.png",
   },
   {
     id: "167",
-    name: "Smoothie-Avocado",
+    name: "Avocado Smoothie",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Smoothie-Avocado.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Smoothie-Avocado.png",
   },
   {
     id: "168",
-    name: "Smoothie-Beetroot",
+    name: "Beetroot Smoothie",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Smoothie-Beetroot.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Smoothie-Beetroot.png",
   },
   {
     id: "169",
-    name: "Smoothie-Cloud",
+    name: "Cloud Smoothie",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Smoothie-Cloud.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Smoothie-Cloud.png",
   },
   {
     id: "170",
-    name: "Smoothie-Durian",
+    name: "Durian Smoothie",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Smoothie-Durian.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Smoothie-Durian.png",
   },
   {
     id: "171",
-    name: "Smoothie-GreenVegetable",
+    name: "Green Vegetable Smoothie",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/Smoothie-GreenVegetable.png",
     bigImageUrl:
@@ -1241,7 +1241,7 @@ export const availableFoods = [
   },
   {
     id: "172",
-    name: "Smoothie-MangoPassion",
+    name: "Mango Passion Smoothie",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/Smoothie-MangoPassion.png",
     bigImageUrl:
@@ -1249,107 +1249,107 @@ export const availableFoods = [
   },
   {
     id: "173",
-    name: "Smoothie-MixedBerry",
+    name: "Mixed Berry Smoothie",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Smoothie-MixedBerry.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Smoothie-MixedBerry.png",
   },
   {
     id: "174",
-    name: "Smoothie-Pineapple",
+    name: "Pineapple Smoothie",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Smoothie-Pineapple.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Smoothie-Pineapple.png",
   },
   {
     id: "175",
-    name: "Smoothie-Watermelon",
+    name: "Watermelon Smoothie",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Smoothie-Watermelon.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Smoothie-Watermelon.png",
   },
-  {
+    {
     id: "176",
-    name: "Soda-BlueHawaii",
-    imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Soda-BlueHawaii.png",
-    bigImageUrl:
-      "https://cdn.bixmy.party/PNG-Big-Drinks-New/Soda-BlueHawaii.png",
-  },
-  {
-    id: "177",
-    name: "Soda-BlueberryLemon",
+    name: "Blueberry Lemon Soda",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Soda-BlueberryLemon.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Soda-BlueberryLemon.png",
   },
   {
+    id: "177",
+    name: "Blue Hawaii Soda",
+    imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Soda-BlueHawaii.png",
+    bigImageUrl:
+      "https://cdn.bixmy.party/PNG-Big-Drinks-New/Soda-BlueHawaii.png",
+  },
+  {
     id: "178",
-    name: "Soda-Cream",
+    name: "Cream Soda",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Soda-Cream.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Soda-Cream.png",
   },
   {
     id: "179",
-    name: "Soda-HoneyLemon",
+    name: "Honey Lemon Soda",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Soda-HoneyLemon.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Soda-HoneyLemon.png",
   },
   {
     id: "180",
-    name: "Soda-Kiwi",
+    name: "Kiwi Soda",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Soda-Kiwi.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Soda-Kiwi.png",
   },
   {
     id: "181",
-    name: "Soda-Lychee",
+    name: "Lychee Soda",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Soda-Lychee.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Soda-Lychee.png",
   },
   {
     id: "182",
-    name: "Soda-Mango",
+    name: "Mango Soda",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Soda-Mango.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Soda-Mango.png",
   },
   {
     id: "183",
-    name: "Soda-Orange",
+    name: "Orange Soda",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Soda-Orange.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Soda-Orange.png",
   },
   {
     id: "184",
-    name: "Soda-Strawberry",
+    name: "Strawberry Soda",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Soda-Strawberry.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Soda-Strawberry.png",
   },
   {
     id: "185",
-    name: "SoftDrink-Cola",
+    name: "Cola",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/SoftDrink-Cola.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/SoftDrink-Cola.png",
   },
   {
     id: "186",
-    name: "SoftDrink-ColaLight",
+    name: "Cola Light",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/SoftDrink-ColaLight.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/SoftDrink-ColaLight.png",
   },
   {
     id: "187",
-    name: "SoftDrink-ColaZero",
+    name: "Cola Zero",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/SoftDrink-ColaZero.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/SoftDrink-ColaZero.png",
   },
   {
     id: "188",
-    name: "SoftDrink-FantieBerry",
+    name: "Fantie Berry",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/SoftDrink-FantieBerry.png",
     bigImageUrl:
@@ -1357,7 +1357,7 @@ export const availableFoods = [
   },
   {
     id: "189",
-    name: "SoftDrink-FantieExotic",
+    name: "Fantie Exotic",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/SoftDrink-FantieExotic.png",
     bigImageUrl:
@@ -1365,7 +1365,7 @@ export const availableFoods = [
   },
   {
     id: "190",
-    name: "SoftDrink-FantieGrape",
+    name: "Fantie Grape",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/SoftDrink-FantieGrape.png",
     bigImageUrl:
@@ -1373,7 +1373,7 @@ export const availableFoods = [
   },
   {
     id: "191",
-    name: "SoftDrink-FantieOrange",
+    name: "Fantie Orange",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/SoftDrink-FantieOrange.png",
     bigImageUrl:
@@ -1381,7 +1381,7 @@ export const availableFoods = [
   },
   {
     id: "192",
-    name: "SoftDrink-FantiePineapple",
+    name: "Fantie Pineapple",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/SoftDrink-FantiePineapple.png",
     bigImageUrl:
@@ -1389,7 +1389,7 @@ export const availableFoods = [
   },
   {
     id: "193",
-    name: "SoftDrink-FantieStrawberry",
+    name: "Fantie Strawberry",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Drinks-New/SoftDrink-FantieStrawberry.png",
     bigImageUrl:
@@ -1397,191 +1397,191 @@ export const availableFoods = [
   },
   {
     id: "194",
-    name: "SoftDrink-Pepso",
+    name: "Pepso",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/SoftDrink-Pepso.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/SoftDrink-Pepso.png",
   },
   {
     id: "195",
-    name: "SoftDrink-Spritey",
+    name: "Spritey",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/SoftDrink-Spritey.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/SoftDrink-Spritey.png",
   },
   {
     id: "196",
-    name: "TeaHot-Berry",
+    name: "Hot Berry Tea",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/TeaHot-Berry.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/TeaHot-Berry.png",
   },
   {
     id: "197",
-    name: "TeaHot-Black",
+    name: "Hot Black Tea",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/TeaHot-Black.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/TeaHot-Black.png",
   },
   {
     id: "198",
-    name: "TeaHot-ButterflyPea",
+    name: "Hot Butterfly Pea Tea",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/TeaHot-ButterflyPea.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/TeaHot-ButterflyPea.png",
   },
   {
     id: "199",
-    name: "TeaHot-Ginger",
+    name: "Hot Ginger Tea",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/TeaHot-Ginger.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/TeaHot-Ginger.png",
   },
   {
     id: "200",
-    name: "TeaHot-Green",
+    name: "Hot Green Tea",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/TeaHot-Green.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/TeaHot-Green.png",
   },
   {
     id: "201",
-    name: "TeaHot-Hibiscus",
+    name: "Hot Hibiscus Tea",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/TeaHot-Hibiscus.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/TeaHot-Hibiscus.png",
   },
   {
     id: "202",
-    name: "TeaHot-Lavender",
+    name: "Hot Lavender Tea",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/TeaHot-Lavender.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/TeaHot-Lavender.png",
   },
   {
     id: "203",
-    name: "TeaHot-Lemon",
+    name: "Hot Lemon Tea",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/TeaHot-Lemon.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/TeaHot-Lemon.png",
   },
   {
     id: "204",
-    name: "TeaHot-Matcha",
+    name: "Hot Matcha Tea",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/TeaHot-Matcha.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/TeaHot-Matcha.png",
   },
   {
     id: "205",
-    name: "TeaHot-Oolong",
+    name: "Hot Oolong Tea",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/TeaHot-Oolong.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/TeaHot-Oolong.png",
   },
   {
     id: "206",
-    name: "TeaHot-White",
+    name: "Hot White Tea",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/TeaHot-White.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/TeaHot-White.png",
   },
   {
     id: "207",
-    name: "Water-Cucumber",
+    name: "Cucumber Water",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Water-Cucumber.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Drinks-New/Water-Cucumber.png",
   },
   {
     id: "208",
-    name: "Water-Iced",
+    name: "Iced Water",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Water-Iced.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Water-Iced.png",
   },
   {
     id: "209",
-    name: "Water-Lemon",
+    name: "Lemon Water",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Water-Lemon.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Water-Lemon.png",
   },
   {
     id: "210",
-    name: "Water-Mineral",
+    name: "Mineral Water",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Water-Mineral.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Water-Mineral.png",
   },
   {
     id: "211",
-    name: "Water-Water",
+    name: "Water",
     imageUrl: "https://cdn.bixmy.party/PNG-Drinks-New/Water-Water.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Drinks-New/Water-Water.png",
   },
   {
     id: "212",
-    name: "American-ChickenSteak",
+    name: "Chicken Steak",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/American-ChickenSteak.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/American-ChickenSteak.png",
   },
   {
     id: "213",
-    name: "American-CornSoup",
+    name: "Corn Soup",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/American-CornSoup.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/American-CornSoup.png",
   },
   {
     id: "214",
-    name: "American-FruitSalad",
+    name: "Fruit Salad",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/American-FruitSalad.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/American-FruitSalad.png",
   },
   {
     id: "215",
-    name: "American-GarlicBread",
+    name: "Garlic Bread",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/American-GarlicBread.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/American-GarlicBread.png",
   },
   {
     id: "216",
-    name: "American-GreenSalad",
+    name: "Green Salad",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/American-GreenSalad.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/American-GreenSalad.png",
   },
   {
     id: "217",
-    name: "American-MashPotato",
+    name: "Mash Potato",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/American-MashPotato.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/American-MashPotato.png",
   },
   {
     id: "218",
-    name: "American-MushroomSoup",
+    name: "Mushroom Soup",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/American-MushroomSoup.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/American-MushroomSoup.png",
   },
   {
     id: "219",
-    name: "American-PorkSteak",
+    name: "Pork Steak",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/American-PorkSteak.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/American-PorkSteak.png",
   },
   {
     id: "220",
-    name: "American-RibeyeSteak",
+    name: "Ribeye Steak",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/American-RibeyeSteak.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/American-RibeyeSteak.png",
   },
   {
     id: "221",
-    name: "American-SalmonSteak",
+    name: "Salmon Steak",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/American-SalmonSteak.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/American-SalmonSteak.png",
   },
   {
     id: "222",
-    name: "British-BeefWellington",
+    name: "Beef Wellington",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Foods-New/British-BeefWellington.png",
     bigImageUrl:
@@ -1589,14 +1589,14 @@ export const availableFoods = [
   },
   {
     id: "223",
-    name: "British-FishandChip",
+    name: "Fish And Chip",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/British-FishandChip.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/British-FishandChip.png",
   },
   {
     id: "224",
-    name: "British-FullEnglishBreakfast",
+    name: "Full English Breakfast",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Foods-New/British-FullEnglishBreakfast.png",
     bigImageUrl:
@@ -1604,87 +1604,87 @@ export const availableFoods = [
   },
   {
     id: "225",
-    name: "British-ScotchEggs",
+    name: "Scotch Eggs",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/British-ScotchEggs.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/British-ScotchEggs.png",
   },
   {
     id: "226",
-    name: "British-Shepherd’sPie",
+    name: "Shepherd’s Pie",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/British-Shepherd’sPie.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/British-Shepherd’sPie.png",
   },
   {
     id: "227",
-    name: "Chinese-BaoZi1",
+    name: "Steamed Custard Bun",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Chinese-BaoZi1.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Chinese-BaoZi1.png",
   },
   {
     id: "228",
-    name: "Chinese-BaoZi2",
+    name: "Steamed Pork Bun",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Chinese-BaoZi2.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Chinese-BaoZi2.png",
   },
   {
     id: "229",
-    name: "Chinese-DimSum1",
+    name: "Shrimp Shumai",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Chinese-DimSum1.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Chinese-DimSum1.png",
   },
   {
     id: "230",
-    name: "Chinese-DimSum2",
+    name: "Pork Shumai",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Chinese-DimSum2.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Chinese-DimSum2.png",
   },
   {
     id: "231",
-    name: "Chinese-DimSum3",
+    name: "Crab Shumai",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Chinese-DimSum3.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Chinese-DimSum3.png",
   },
   {
     id: "232",
-    name: "Chinese-Hagao",
+    name: "Hagao",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Chinese-Hagao.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Chinese-Hagao.png",
   },
   {
     id: "233",
-    name: "Chinese-Jiaozi",
+    name: "Jiaozi",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Chinese-Jiaozi.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Chinese-Jiaozi.png",
   },
   {
     id: "234",
-    name: "Chinese-MaPoTofu",
+    name: "Mapo Tofu",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Chinese-MaPoTofu.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Chinese-MaPoTofu.png",
   },
   {
     id: "235",
-    name: "Chinese-ShouMian",
+    name: "Shou Mian",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Chinese-ShouMian.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Chinese-ShouMian.png",
   },
   {
     id: "236",
-    name: "Chinese-SiaoLongPao",
+    name: "Siao Long Pao",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Chinese-SiaoLongPao.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Chinese-SiaoLongPao.png",
   },
   {
     id: "237",
-    name: "Chinese-SweetandSourPork",
+    name: "Sweet And Sour Pork",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Foods-New/Chinese-SweetandSourPork.png",
     bigImageUrl:
@@ -1692,14 +1692,14 @@ export const availableFoods = [
   },
   {
     id: "238",
-    name: "FastFood-BuffaloWing",
+    name: "Buffalo Wing",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/FastFood-BuffaloWing.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/FastFood-BuffaloWing.png",
   },
   {
     id: "239",
-    name: "FastFood-FiredEggAndHamSandwich",
+    name: "Fired Egg And Ham Sandwich",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Foods-New/FastFood-FiredEggAndHamSandwich.png",
     bigImageUrl:
@@ -1707,35 +1707,35 @@ export const availableFoods = [
   },
   {
     id: "240",
-    name: "FastFood-FrenchFries",
+    name: "French Fries",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/FastFood-FrenchFries.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/FastFood-FrenchFries.png",
   },
   {
     id: "241",
-    name: "FastFood-FriedChick",
+    name: "Fried Chicken",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/FastFood-FriedChick.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/FastFood-FriedChick.png",
   },
   {
     id: "242",
-    name: "FastFood-GrillCheese",
+    name: "Grilled Cheese Sandwich",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/FastFood-GrillCheese.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/FastFood-GrillCheese.png",
   },
   {
     id: "243",
-    name: "FastFood-Hamberger",
+    name: "Hamberger",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/FastFood-Hamberger.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/FastFood-Hamberger.png",
   },
   {
     id: "244",
-    name: "FastFood-Hawaiianpizza",
+    name: "Hawaiian Pizza",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Foods-New/FastFood-Hawaiianpizza.png",
     bigImageUrl:
@@ -1743,35 +1743,35 @@ export const availableFoods = [
   },
   {
     id: "245",
-    name: "FastFood-Hotdog",
+    name: "Hot Dog",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/FastFood-Hotdog.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/FastFood-Hotdog.png",
   },
   {
     id: "246",
-    name: "FastFood-Nugget",
+    name: "Nugget",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/FastFood-Nugget.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/FastFood-Nugget.png",
   },
   {
     id: "247",
-    name: "FastFood-OnionRing",
+    name: "Onion Ring",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/FastFood-OnionRing.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/FastFood-OnionRing.png",
   },
   {
     id: "248",
-    name: "FastFood-PeanutJelly",
+    name: "Peanut Butter And Jelly Sandwich",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/FastFood-PeanutJelly.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/FastFood-PeanutJelly.png",
   },
   {
     id: "249",
-    name: "FastFood-PeperoniPizza",
+    name: "Pepperoni Pizza",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Foods-New/FastFood-PeperoniPizza.png",
     bigImageUrl:
@@ -1779,14 +1779,14 @@ export const availableFoods = [
   },
   {
     id: "250",
-    name: "FastFood-Sandwich",
+    name: "Ham And Cheese Sandwich",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/FastFood-Sandwich.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/FastFood-Sandwich.png",
   },
   {
     id: "251",
-    name: "French-BeefBourguignon",
+    name: "Beef Bourguignon",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Foods-New/French-BeefBourguignon.png",
     bigImageUrl:
@@ -1794,89 +1794,89 @@ export const availableFoods = [
   },
   {
     id: "252",
-    name: "French-Consomme",
+    name: "Consomme",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/French-Consomme.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/French-Consomme.png",
   },
   {
     id: "253",
-    name: "French-Escargots",
+    name: "Escargots",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/French-Escargots.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/French-Escargots.png",
   },
   {
     id: "254",
-    name: "French-Ratatouille",
+    name: "Ratatouille",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/French-Ratatouille.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/French-Ratatouille.png",
   },
   {
     id: "255",
-    name: "Indian-ChickenMakhani",
+    name: "Chicken Makhani",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Indian-ChickenMakhani.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Indian-ChickenMakhani.png",
   },
   {
     id: "256",
-    name: "Indian-MasalaDosa",
+    name: "Masala Dosa",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Indian-MasalaDosa.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Indian-MasalaDosa.png",
   },
   {
     id: "257",
-    name: "Indian-Naan",
+    name: "Naan",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Indian-Naan.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Indian-Naan.png",
   },
   {
     id: "258",
-    name: "Indian-PaniPuri",
+    name: "Pani Puri",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Indian-PaniPuri.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Indian-PaniPuri.png",
   },
   {
     id: "259",
-    name: "Indian-SaagPaneer",
+    name: "Saag Paneer",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Indian-SaagPaneer.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Indian-SaagPaneer.png",
   },
   {
     id: "260",
-    name: "Indian-Samosa",
+    name: "Samosa",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Indian-Samosa.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Indian-Samosa.png",
   },
   {
     id: "261",
-    name: "Italian-BakedSpinach",
+    name: "Baked Spinach",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Italian-BakedSpinach.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Italian-BakedSpinach.png",
   },
   {
     id: "262",
-    name: "Italian-Bruschetta",
+    name: "Bruschetta",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Italian-Bruschetta.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Italian-Bruschetta.png",
   },
   {
     id: "263",
-    name: "Italian-CheesePizza",
+    name: "Cheese Pizza",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Italian-CheesePizza.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Italian-CheesePizza.png",
   },
   {
     id: "264",
-    name: "Italian-ChickenFettuccineAlfredo",
+    name: "Chicken Fettucini Alfredo",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Foods-New/Italian-ChickenFettuccineAlfredo.png",
     bigImageUrl:
@@ -1884,14 +1884,14 @@ export const availableFoods = [
   },
   {
     id: "265",
-    name: "Italian-Lasagna",
+    name: "Lasagna",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Italian-Lasagna.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Italian-Lasagna.png",
   },
   {
     id: "266",
-    name: "Italian-MargheritaPizza",
+    name: "Margherita Pizza",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Foods-New/Italian-MargheritaPizza.png",
     bigImageUrl:
@@ -1899,15 +1899,7 @@ export const availableFoods = [
   },
   {
     id: "267",
-    name: "Italian-ParmesanRisotto",
-    imageUrl:
-      "https://cdn.bixmy.party/PNG-Foods-New/Italian-ParmesanRisotto.png",
-    bigImageUrl:
-      "https://cdn.bixmy.party/PNG-Big-Foods-New/Italian-ParmesanRisotto.png",
-  },
-  {
-    id: "268",
-    name: "Italian-PastaBolognese",
+    name: "Pasta Bolognese",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Foods-New/Italian-PastaBolognese.png",
     bigImageUrl:
@@ -1915,7 +1907,7 @@ export const availableFoods = [
   },
   {
     id: "269",
-    name: "Italian-PastaCarbonara",
+    name: "Pasta Carbonara",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Foods-New/Italian-PastaCarbonara.png",
     bigImageUrl:
@@ -1923,15 +1915,23 @@ export const availableFoods = [
   },
   {
     id: "270",
-    name: "Italian-RavioliRicottaCheese",
+    name: "Ravioli Ricotta Cheese",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Foods-New/Italian-RavioliRicottaCheese.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Italian-RavioliRicottaCheese.png",
   },
   {
+    id: "267",
+    name: "Risotto Parmesan",
+    imageUrl:
+      "https://cdn.bixmy.party/PNG-Foods-New/Italian-RisottoParmesan.png",
+    bigImageUrl:
+      "https://cdn.bixmy.party/PNG-Big-Foods-New/Italian-RisottoParmesan.png",
+  },
+  {
     id: "271",
-    name: "Italian-SeafoodGnocchi",
+    name: "Seafood Gnocchi",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Foods-New/Italian-SeafoodGnocchi.png",
     bigImageUrl:
@@ -1939,7 +1939,7 @@ export const availableFoods = [
   },
   {
     id: "272",
-    name: "Italian-TortelliniSoup",
+    name: "Tortellini Soup",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Foods-New/Italian-TortelliniSoup.png",
     bigImageUrl:
@@ -1947,127 +1947,127 @@ export const availableFoods = [
   },
   {
     id: "273",
-    name: "Japanese-Daifuku",
-    imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Japanese-Daifuku.png",
-    bigImageUrl:
-      "https://cdn.bixmy.party/PNG-Big-Foods-New/Japanese-Daifuku.png",
-  },
-  {
-    id: "274",
-    name: "Japanese-Dango",
-    imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Japanese-Dango.png",
-    bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Japanese-Dango.png",
-  },
-  {
-    id: "275",
-    name: "Japanese-KareRaisu",
+    name: "Kare Raisu",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Japanese-KareRaisu.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Japanese-KareRaisu.png",
   },
   {
-    id: "276",
-    name: "Japanese-NattoDonburi",
+    id: "274",
+    name: "Natto Donburi",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Japanese-NattoDonburi.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Japanese-NattoDonburi.png",
   },
   {
-    id: "277",
-    name: "Japanese-Oden",
+    id: "275",
+    name: "Oden",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Japanese-Oden.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Japanese-Oden.png",
   },
   {
-    id: "278",
-    name: "Japanese-Okonomiyaki",
+    id: "276",
+    name: "Okonomiyaki",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Japanese-Okonomiyaki.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Japanese-Okonomiyaki.png",
   },
   {
-    id: "279",
-    name: "Japanese-Onigiri",
+    id: "277",
+    name: "Onigiri",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Japanese-Onigiri.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Japanese-Onigiri.png",
   },
   {
-    id: "280",
-    name: "Japanese-Pudding",
-    imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Japanese-Pudding.png",
-    bigImageUrl:
-      "https://cdn.bixmy.party/PNG-Big-Foods-New/Japanese-Pudding.png",
-  },
-  {
-    id: "281",
-    name: "Japanese-Ramen",
+    id: "278",
+    name: "Ramen",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Japanese-Ramen.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Japanese-Ramen.png",
   },
   {
-    id: "282",
-    name: "Japanese-Sashimi",
+    id: "279",
+    name: "Sashimi",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Japanese-Sashimi.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Japanese-Sashimi.png",
   },
   {
-    id: "283",
-    name: "Japanese-Sushi",
+    id: "280",
+    name: "Sushi",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Japanese-Sushi.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Japanese-Sushi.png",
   },
   {
-    id: "284",
-    name: "Japanese-Takoyaki",
+    id: "281",
+    name: "Takoyaki",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Japanese-Takoyaki.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Japanese-Takoyaki.png",
   },
   {
-    id: "285",
-    name: "Japanese-Tempura",
+    id: "282",
+    name: "Tempura",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Japanese-Tempura.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Japanese-Tempura.png",
   },
   {
-    id: "286",
-    name: "Japanese-Unadon",
+    id: "283",
+    name: "Unadon",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Japanese-Unadon.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Japanese-Unadon.png",
   },
   {
-    id: "287",
-    name: "Japanese-Yakisoba",
+    id: "284",
+    name: "Yakisoba",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Japanese-Yakisoba.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Japanese-Yakisoba.png",
   },
   {
+    id: "285",
+    name: "Daifuku",
+    imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Japanese-Daifuku.png",
+    bigImageUrl:
+      "https://cdn.bixmy.party/PNG-Big-Foods-New/Japanese-Daifuku.png",
+  },
+  {
+    id: "286",
+    name: "Dango",
+    imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Japanese-Dango.png",
+    bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Japanese-Dango.png",
+  },
+  {
+    id: "287",
+    name: "Pudding",
+    imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Japanese-Pudding.png",
+    bigImageUrl:
+      "https://cdn.bixmy.party/PNG-Big-Foods-New/Japanese-Pudding.png",
+  },
+  {
     id: "288",
-    name: "Korean-Bibimbab",
+    name: "Bibimbab",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Korean-Bibimbab.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Korean-Bibimbab.png",
   },
   {
     id: "289",
-    name: "Korean-Kimbap",
+    name: "Kimbap",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Korean-Kimbap.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Korean-Kimbap.png",
   },
   {
     id: "290",
-    name: "Korean-Kimchi",
+    name: "Kimchi",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Korean-Kimchi.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Korean-Kimchi.png",
   },
   {
     id: "291",
-    name: "Korean-KoreanFriedChicken",
+    name: "Korean Fried Chicken",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Foods-New/Korean-KoreanFriedChicken.png",
     bigImageUrl:
@@ -2075,7 +2075,7 @@ export const availableFoods = [
   },
   {
     id: "292",
-    name: "Korean-SoyMarinatedCrab",
+    name: "Soy Marinated Crab",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Foods-New/Korean-SoyMarinatedCrab.png",
     bigImageUrl:
@@ -2083,67 +2083,67 @@ export const availableFoods = [
   },
   {
     id: "293",
-    name: "Korean-Tokpokki",
+    name: "Tokpokki",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Korean-Tokpokki.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Korean-Tokpokki.png",
   },
   {
     id: "294",
-    name: "Mexican-Burrito",
+    name: "-Burrito",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Mexican-Burrito.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Mexican-Burrito.png",
   },
   {
     id: "295",
-    name: "Mexican-Enchiladas",
+    name: "Enchiladas",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Mexican-Enchiladas.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Mexican-Enchiladas.png",
   },
   {
     id: "296",
-    name: "Mexican-Guacamole",
+    name: "Guacamole",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Mexican-Guacamole.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Mexican-Guacamole.png",
   },
   {
     id: "297",
-    name: "Mexican-Nacho",
+    name: "Nacho",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Mexican-Nacho.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Mexican-Nacho.png",
   },
   {
     id: "298",
-    name: "Mexican-Taco",
+    name: "Taco",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Mexican-Taco.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Mexican-Taco.png",
   },
   {
     id: "299",
-    name: "Spanish-Gazpacho",
+    name: "Gazpacho",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Spanish-Gazpacho.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Spanish-Gazpacho.png",
   },
   {
     id: "300",
-    name: "Spanish-JamonIberico",
+    name: "Jamon Iberico",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Spanish-JamonIberico.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Spanish-JamonIberico.png",
   },
   {
     id: "301",
-    name: "Spanish-Paella",
+    name: "Paella",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Spanish-Paella.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Spanish-Paella.png",
   },
   {
     id: "302",
-    name: "Spanish-PulpoALaGallega",
+    name: "Pulpo ALa Gallega",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Foods-New/Spanish-PulpoALaGallega.png",
     bigImageUrl:
@@ -2151,7 +2151,7 @@ export const availableFoods = [
   },
   {
     id: "303",
-    name: "Spanish-TortillaEspanola",
+    name: "Tortilla Espanola",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Foods-New/Spanish-TortillaEspanola.png",
     bigImageUrl:
@@ -2159,156 +2159,156 @@ export const availableFoods = [
   },
   {
     id: "304",
-    name: "Thai-ChickenKhaoSoi",
+    name: "Chicken Khao Soi",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Thai-ChickenKhaoSoi.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Thai-ChickenKhaoSoi.png",
   },
   {
     id: "305",
-    name: "Thai-GreenCurry",
-    imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Thai-GreenCurry.png",
-    bigImageUrl:
-      "https://cdn.bixmy.party/PNG-Big-Foods-New/Thai-GreenCurry.png",
-  },
-  {
-    id: "306",
-    name: "Thai-GrilledShrimp",
-    imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Thai-GrilledShrimp.png",
-    bigImageUrl:
-      "https://cdn.bixmy.party/PNG-Big-Foods-New/Thai-GrilledShrimp.png",
-  },
-  {
-    id: "307",
-    name: "Thai-MangoStickyRice",
-    imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Thai-MangoStickyRice.png",
-    bigImageUrl:
-      "https://cdn.bixmy.party/PNG-Big-Foods-New/Thai-MangoStickyRice.png",
-  },
-  {
-    id: "308",
-    name: "Thai-PadKrapao",
-    imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Thai-PadKrapao.png",
-    bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Thai-PadKrapao.png",
-  },
-  {
-    id: "309",
-    name: "Thai-PadThai",
-    imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Thai-PadThai.png",
-    bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Thai-PadThai.png",
-  },
-  {
-    id: "310",
-    name: "Thai-PasteBalls",
+    name: "Fried Fish-Paste Ball",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Thai-PasteBalls.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Thai-PasteBalls.png",
   },
   {
-    id: "311",
-    name: "Thai-PineappleFriedRice",
+    id: "306",
+    name: "Green Curry",
+    imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Thai-GreenCurry.png",
+    bigImageUrl:
+      "https://cdn.bixmy.party/PNG-Big-Foods-New/Thai-GreenCurry.png",
+  },
+  {
+    id: "307",
+    name: "Grilled Shrimp",
+    imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Thai-GrilledShrimp.png",
+    bigImageUrl:
+      "https://cdn.bixmy.party/PNG-Big-Foods-New/Thai-GrilledShrimp.png",
+  },
+  {
+    id: "308",
+    name: "Pad Kra Pao",
+    imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Thai-PadKrapao.png",
+    bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Thai-PadKrapao.png",
+  },
+   {
+    id: "309",
+    name: "Pad Thai",
+    imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Thai-PadThai.png",
+    bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Thai-PadThai.png",
+  },
+  {
+    id: "310",
+    name: "Pineapple Fried Rice",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Foods-New/Thai-PineappleFriedRice.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Thai-PineappleFriedRice.png",
   },
   {
-    id: "312",
-    name: "Thai-PorkLarb",
+    id: "311",
+    name: "Pork Larb",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Thai-PorkLarb.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Thai-PorkLarb.png",
   },
   {
-    id: "313",
-    name: "Thai-PorkSatay",
+    id: "312",
+    name: "Pork Satay",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Thai-PorkSatay.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Thai-PorkSatay.png",
   },
   {
-    id: "314",
-    name: "Thai-ShrimpPasteChilliSauce",
+    id: "313",
+    name: "Shrimp Paste Chilli Sauce",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Foods-New/Thai-ShrimpPasteChilliSauce.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Thai-ShrimpPasteChilliSauce.png",
   },
   {
-    id: "315",
-    name: "Thai-ShrimpPasteFriedRice",
+    id: "314",
+    name: "Shrimp Paste Fried Rice",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Foods-New/Thai-ShrimpPasteFriedRice.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Thai-ShrimpPasteFriedRice.png",
   },
   {
-    id: "316",
-    name: "Thai-SomTamThai",
+    id: "315",
+    name: "Som Tam Thai",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Thai-SomTamThai.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Thai-SomTamThai.png",
   },
-  {
-    id: "317",
-    name: "Thai-SteamedRice",
+   {
+    id: "316",
+    name: "Steamed Rice",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Thai-SteamedRice.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Thai-SteamedRice.png",
   },
   {
-    id: "318",
-    name: "Thai-Tago",
-    imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Thai-Tago.png",
-    bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Thai-Tago.png",
-  },
-  {
-    id: "319",
-    name: "Thai-ThaiLayerCake",
-    imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Thai-ThaiLayerCake.png",
-    bigImageUrl:
-      "https://cdn.bixmy.party/PNG-Big-Foods-New/Thai-ThaiLayerCake.png",
-  },
-  {
-    id: "320",
-    name: "Thai-TomYumKung",
+    id: "317",
+    name: "Tom Yum Kung",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Thai-TomYumKung.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Thai-TomYumKung.png",
   },
   {
+    id: "318",
+    name: "Mango Sticky Rice",
+    imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Thai-MangoStickyRice.png",
+    bigImageUrl:
+      "https://cdn.bixmy.party/PNG-Big-Foods-New/Thai-MangoStickyRice.png",
+  },
+  {
+    id: "319",
+    name: "Tago",
+    imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Thai-Tago.png",
+    bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Thai-Tago.png",
+  },
+  {
+    id: "320",
+    name: "Thai Layer Cake",
+    imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Thai-ThaiLayerCake.png",
+    bigImageUrl:
+      "https://cdn.bixmy.party/PNG-Big-Foods-New/Thai-ThaiLayerCake.png",
+  },
+  {
     id: "321",
-    name: "Turkish-Gozleme",
+    name: "Gozleme",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Turkish-Gozleme.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Turkish-Gozleme.png",
   },
   {
     id: "322",
-    name: "Turkish-Kabab",
+    name: "Kabab",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Turkish-Kabab.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Turkish-Kabab.png",
   },
   {
     id: "323",
-    name: "Turkish-Koft",
+    name: "Koft",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Turkish-Koft.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Turkish-Koft.png",
   },
   {
     id: "324",
-    name: "Turkish-Menemen",
+    name: "Menemen",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Turkish-Menemen.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Turkish-Menemen.png",
   },
   {
     id: "325",
-    name: "Turkish-Pide",
+    name: "Pide",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Turkish-Pide.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Turkish-Pide.png",
   },
   {
     id: "326",
-    name: "Turkish-StuffedMussels",
+    name: "Stuffed Mussels",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Foods-New/Turkish-StuffedMussels.png",
     bigImageUrl:
@@ -2316,7 +2316,7 @@ export const availableFoods = [
   },
   {
     id: "327",
-    name: "Vietnamese-BahnTrangNuong",
+    name: "Bahn Trang Nuong",
     imageUrl:
       "https://cdn.bixmy.party/PNG-Foods-New/Vietnamese-BahnTrangNuong.png",
     bigImageUrl:
@@ -2324,34 +2324,34 @@ export const availableFoods = [
   },
   {
     id: "328",
-    name: "Vietnamese-BanhCuon",
+    name: "Banh Cuon",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Vietnamese-BanhCuon.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Vietnamese-BanhCuon.png",
   },
   {
     id: "329",
-    name: "Vietnamese-BanhMi",
+    name: "Banh Mi",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Vietnamese-BanhMi.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Vietnamese-BanhMi.png",
   },
   {
     id: "330",
-    name: "Vietnamese-ChaGio",
+    name: "Cha Gio",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Vietnamese-ChaGio.png",
     bigImageUrl:
       "https://cdn.bixmy.party/PNG-Big-Foods-New/Vietnamese-ChaGio.png",
   },
   {
     id: "331",
-    name: "Vietnamese-Nem",
+    name: "Nem Nuong",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Vietnamese-Nem.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Vietnamese-Nem.png",
   },
   {
     id: "332",
-    name: "Vietnamese-Pho",
+    name: "Pho",
     imageUrl: "https://cdn.bixmy.party/PNG-Foods-New/Vietnamese-Pho.png",
     bigImageUrl: "https://cdn.bixmy.party/PNG-Big-Foods-New/Vietnamese-Pho.png",
   },

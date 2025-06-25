@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [tailwindcss(), react()],
   base: "./",
   build: {
+    minify: false,
     rollupOptions: {
       input: {
         mobile: path.resolve(__dirname, "mobile.html"),

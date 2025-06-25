@@ -34,10 +34,10 @@ const MainPage: React.FC = () => {
   const [isSubscriber, setIsSubscriber] = useState(false);
   const [gameState, setGameState] = useState<GameState | null>(null);
   const [streamerId, setStreamerId] = useState<string | null>(null);
-  const [windowSize, setWindowSize] = useState({
-    width: window.innerWidth,
-    height: window.innerHeight,
-  });
+  // const [windowSize, setWindowSize] = useState({
+  //   width: window.innerWidth,
+  //   height: window.innerHeight,
+  // });
 
   const wsRef = useRef<WebSocket | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -45,7 +45,7 @@ const MainPage: React.FC = () => {
   const isMobile = window.location.pathname.includes("mobile.html");
   useEffect(() => {
     const handleResize = () => {
-      setWindowSize({ width: window.innerWidth, height: window.innerHeight });
+      // setWindowSize({ width: window.innerWidth, height: window.innerHeight });
     };
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
@@ -296,7 +296,7 @@ const MainPage: React.FC = () => {
       )}
 
       {/* Debug window size */}
-      <div
+      {/* <div
         className="fixed bottom-3 right-3 z-[9999] px-4 py-2 rounded-md bg-black/80 text-white text-lg font-mono font-extrabold tracking-wider shadow-lg pointer-events-none"
         style={{
           opacity: 0.9,
@@ -306,7 +306,7 @@ const MainPage: React.FC = () => {
         }}
       >
         {windowSize.width} × {windowSize.height} - width x height
-      </div>
+      </div> */}
     </div>
   );
 };
